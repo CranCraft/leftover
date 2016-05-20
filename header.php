@@ -8,13 +8,13 @@
 		<title>leftover</title>
 
 		<!-- Bootstrap -->
-		<link href="main.css" rel="stylesheet">
+		<link href="/leftover/leftover/main.css" rel="stylesheet">
 
 		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 		<!-- Include all compiled plugins (below), or include individual files as needed -->
-		<script src="/bootstrap-3.3.6/js/bootstrap.min.js"></script>
+		<script src="/leftover/leftover/bootstrap-3.3.6/js/bootstrap.min.js"></script>
 		<!-- Main JavaScript Datei einbinden-->
-		<script src="/js/main.js" type="text/javascript"></script>
-		<link href="/img/icon.png" type="image/png" rel="shortcut icon">
+		<script src="/leftover/leftover/js/main.js" type="text/javascript"></script>
+		<link href="/leftover/leftover/img/icon.png" type="image/png" rel="shortcut icon">
 	</head>

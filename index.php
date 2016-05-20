@@ -25,14 +25,14 @@ include ('header.php');
 				include ('subPages/startseite.php');
 				?>	
 			</div>
+		</div>
 			<div id="footer" class="container-fluid">
 				<!-- Footer Datei wird eingefügt-->
 
 				<?php
-				include ('subPages/footer.php');
+				include ('footer.php');
 				?>
 			</div>
-		</div>
 		<!-- Menu Datei wird eingefügt
 
 		<?php

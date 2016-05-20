@@ -62,7 +62,7 @@ include ('../header.php');
 				<!-- Footer Datei wird eingefügt-->
 
 				<?php
-				include ('footer.php');
+				include ('../footer.php');
 				?>
 			</div>
 		</div>
