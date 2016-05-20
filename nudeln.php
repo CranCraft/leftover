@@ -10,21 +10,13 @@
 		<!-- Bootstrap -->
 		<link href="main.css" rel="stylesheet">
 
-		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-		<!--[if lt IE 9]>
-		<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-		<![endif]-->
-
 		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 		<!-- Include all compiled plugins (below), or include individual files as needed -->
 		<script src="bootstrap-3.3.6/js/bootstrap.min.js"></script>
 		<!-- Main JavaScript Datei einbinden-->
 		<script src="js/main.js" type="text/javascript"></script>
-		<link href="img/icon.png" rel="shortcut icon" />
-		
+		<link href="img/icon.png" rel="shortcut icon"
 	</head>
 	<body>
 		<div id="wrapper">
@@ -44,14 +36,18 @@
 				</div>
 				<div id="main">
 					<div class="row">
-						<a href="nudeln.php">
+						<div col-md-3 col-md-offset-2 col-xs-12>
+							<div class="caption">
+								Nudel Rezepte
+							</div>
+							<a href="nudeln.php">
 						<div class="categoryBlock col-md-3 col-md-offset-2 col-xs-12">
 							<img src="img/nudeln_frei.png" class="img-responsive">
 							<div class="btn btn-default btn-block" role="button">
 								nudeln
 							</div>
 						</div> </a>
-						<a href="nudeln.php">
+						<a href="#">
 						<div class="categoryBlock col-md-3 col-md-offset-2 col-xs-12">
 							<img src="img/nudeln_frei.png" class="img-responsive">
 							<div class="btn btn-default btn-block" role="button">
@@ -60,14 +56,14 @@
 						</div> </a>
 					</div>
 					<div class="row">
-						<a href="nudeln.php">
+						<a href="#">
 						<div class="categoryBlock col-md-3 col-md-offset-2 col-xs-12">
 							<img src="img/nudeln_frei.png" class="img-responsive">
 							<div class="btn btn-default btn-block" role="button">
 								nudeln
 							</div>
 						</div> </a>
-						<a href="nudeln.php">
+						<a href="#">
 						<div class="categoryBlock col-md-3 col-md-offset-2 col-xs-12">
 							<img src="img/nudeln_frei.png" class="img-responsive">
 							<div class="btn btn-default btn-block" role="button">
@@ -75,7 +71,7 @@
 							</div>
 						</div> </a>
 					</div>
-				</div>
+					</div>
 				<div id="footer"></div>
 			</div>
 		</div>
@@ -85,9 +81,15 @@
 		</div>
 		<ul class="navbar-menu animate">
 			<li>
-				<a href="aboutUs.php" class="animate">
-					<span class="desc animate"> Who We Are </span>
-					<span class="glyphicon glyphicon-user"></span>
+				<a href="index.php" class="animate">
+					<span class="desc animate"> Home </span>
+					<span class="glyphicon glyphicon-home"></span>
+				</a>
+			</li>
+			<li>
+				<a href="index.php" class="animate">
+					<span class="desc animate"> Home </span>
+					<span class="glyphicon glyphicon-home"></span>
 				</a>
 			</li>
 			<li>
