@@ -6731,6 +6731,7 @@ html body {
   text-align: center;
   letter-spacing: 2px;
   background-color: #000;
+  -webkit-font-smoothing: antialiased;
 }
 html body #menu {
   position: fixed;
@@ -6748,7 +6749,7 @@ html body #menu .btn-default {
   background-color: transparent;
 }
 html body #wrapper {
-  height: 1000px;
+  min-height: 600px;
   padding-top: 30px;
   padding-bottom: 30px;
   margin-left: 40px;
@@ -6758,6 +6759,7 @@ html body #wrapper .container-fluid {
   background-color: #fff;
   height: 100%;
   overflow: hidden;
+  position: relative;
 }
 html body #contact_form .row {
   margin-bottom: -80px;
@@ -6773,15 +6775,14 @@ html body #header #headerLogo {
   margin-left: -15px;
   margin-right: -15px;
 }
-html body #main .caption {
+html body #main {
+  margin-bottom: 100px;
+}
+html body #main .siteTitle {
   border-radius: 0;
-  background-color: #000;
   border: none;
-  color: #fff;
-  margin-top: -30px;
-  margin-left: 40%;
-  margin-right: 40%;
-  margin-bottom: 50px;
+  color: #000;
+  font-size: 20px;
 }
 html body #main .row {
   margin-top: 100px;
@@ -6815,6 +6816,29 @@ html body #submit_button {
   color: #fff;
   background-color: #000;
   padding-top: -350px;
+}
+html body #footer.container-fluid {
+  background-color: #000;
+  margin-top: 10px;
+}
+html body #footer.container-fluid .footerList li {
+  display: inline-block;
+  color: #fff;
+}
+html body #footer.container-fluid .footerList li:after {
+  padding: 0 3px 0 5px;
+  content: '|';
+  color: #fff;
+}
+html body #footer.container-fluid .footerList li:last-child:after {
+  content: '';
+  padding: 0;
+}
+html body #footer.container-fluid .footerList.firstList {
+  font-size: 13.22px;
+}
+html body #footer.container-fluid .footerList.secondList {
+  font-size: 8.66px;
 }
 @media (min-width: 970px) {
   .container-fluid {
