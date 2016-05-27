@@ -20,7 +20,7 @@
 				<div class="col-xs-12">
 					<ul class="footerList secondList">
 						<li>
-							impressum
+							<a href="subPages/impressum.php">impressum</a>
 						</li>
 						<li>
 							kontakt

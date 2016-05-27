@@ -46,37 +46,11 @@ include ('../header.php');
 							<p><strong>urheberrecht</strong></p>
 							<p style="text-align: left;">die durch die seitenbetreiber erstellten inhalte und werke auf diesen seiten unterliegen dem deutschen urheberrecht. die vervielfältigung, bearbeitung, verbreitung und jede art der verwertung außerhalb der grenzen des urheberrechtes bedürfen der schriftlichen zustimmung des jeweiligen autors bzw. erstellers. downloads und kopien dieser seite sind nur für den privaten, nicht kommerziellen gebrauch gestattet. soweit die inhalte auf dieser seite nicht vom betreiber erstellt wurden, werden die urheberrechte dritter beachtet. insbesondere werden inhalte dritter als solche gekennzeichnet. sollten sie trotzdem auf eine urheberrechtsverletzung aufmerksam werden, bitten wir um einen entsprechenden hinweis. bei bekanntwerden von rechtsverletzungen werden wir derartige inhalte umgehend entfernen.</p>
 
-							<p>quelle: <em><a href="http://www.e-recht24.de">http://www.e-recht24.de</a></em></p>
 						</div>
 					</div> 
 				</div>
-				<div id="footer"></div>
+			
 			</div>
 		</div>
-		  <nav class="navbar navbar-fixed-right navbar-minimal animate" role="navigation">
-		<div class="navbar-toggler animate">
-			<span class="menu-icon"></span>
-		</div>
-		<ul class="navbar-menu animate">
-			<li>
-				<a href="index.php" class="animate">
-					<span class="desc animate"> home </span>
-					<span class="glyphicon glyphicon-home"></span>
-				</a>
-			</li>
-			<li>
-				<a href="aboutus.php" class="animate">
-					<span class="desc animate"> who we are </span>
-					<span class="glyphicon glyphicon-user"></span>
-				</a>
-			</li>
-			<li>
-				<a href="info.php" class="animate">
-					<span class="desc animate"> info </span>
-					<span class="glyphicon glyphicon-info-sign"></span>
-				</a>
-			</li>
-		</ul>
-	</nav>
 	</body>
 </html>
