@@ -1,3 +1,4 @@
+@import "CSSRESET.css";
 /*!
  * Bootstrap v3.3.6 (http://getbootstrap.com)
  * Copyright 2011-2015 Twitter, Inc.
@@ -6778,11 +6779,20 @@ html body #header #headerLogo {
 html body #main {
   margin-bottom: 100px;
 }
-html body #main .siteTitle {
+html body #main .siteTitle,
+html body #main h4 {
   border-radius: 0;
   border: none;
   color: #000;
   font-size: 20px;
+  font-weight: 900;
+  letter-spacing: 8px;
+}
+html body #main.rezept p {
+  font-size: 18px;
+}
+html body #main.rezept .row {
+  margin-top: 70px;
 }
 html body #main .row {
   margin-top: 100px;
