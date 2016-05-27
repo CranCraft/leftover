@@ -12,7 +12,7 @@ include ('../header.php');
 							<div class="row">
 								<div class="col-xs-12">
 									<a href="index.php">
-									<img src="img/logoBanner.png" class="img-responsive">
+									<img src="../img/logoBanner.png" class="img-responsive">
 									</a>
 								</div>
 							</div>
@@ -21,7 +21,7 @@ include ('../header.php');
 				</div>
 				<div id="main">
 					<div class="row">
-						<div col-md-3 col-md-offset-2 col-xs-12>
+						<div "col-md-12">
 							<div class="caption">
 								contact
 							</div>
