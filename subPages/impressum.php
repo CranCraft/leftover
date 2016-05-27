@@ -11,7 +11,7 @@ include ('../header.php');
 						<div id="headerLogo">
 							<div class="row">
 								<div class="col-xs-12">
-									<a href="index.php">
+									<a href="../index.php">
 									<img src="../img/logobanner.png" class="img-responsive">
 									</a>
 								</div>
