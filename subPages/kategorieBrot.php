@@ -20,15 +20,15 @@ include ('../header.php');
 				<div id="main">
 					<div class="row">
 						<div class="col-md-4 col-md-offset-4 col-xs-12 siteTitle">
-							Nudel Rezepte
+							Brot Rezepte
 						</div>
 					</div>
 					<div class="row">
-						<a href="Rezepte/NUDELNMITTOMATENSAUCE.php">
+						<a href="nudeln.php">
 						<div class="categoryBlock col-md-3 col-md-offset-2 col-xs-12">
 							<img src="../img/nudeln_frei.png" class="img-responsive">
 							<div class="btn btn-default btn-block" role="button">
-								Pomodoro
+								nudeln
 							</div>
 						</div> </a>
 						<a href="#">

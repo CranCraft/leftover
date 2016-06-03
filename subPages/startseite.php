@@ -1,32 +1,32 @@
 		<div class="row">
 					<a href="subPages/kategorieNudeln.php">
-					<div class="categoryBlock col-md-3 col-md-offset-2 col-xs-12">
+					<div class="categoryBlock col-xs-8 col-xs-offset-2 col-md-3 col-md-offset-2">
 						<img src="img/nudeln_frei.png" class="img-responsive">
 						<div class="btn btn-default btn-block" role="button">
-							nudeln
+							Nudeln
 						</div>
 					</div> </a>
-					<a href="nudeln.php">
-					<div class="categoryBlock col-md-3 col-md-offset-2 col-xs-12">
+					<a href="subPages/kategorieReis.php">
+					<div class="categoryBlock col-xs-8 col-xs-offset-2 col-md-3 col-md-offset-2 keinAbstand">
 						<img src="img/nudeln_frei.png" class="img-responsive">
 						<div class="btn btn-default btn-block" role="button">
-							nudeln
+							Reis
 						</div>
 					</div> </a>
 				</div>
 				<div class="row">
-					<a href="nudeln.php">
-					<div class="categoryBlock col-md-3 col-md-offset-2 col-xs-12">
+					<a href="subPages/kategorieBrot.php">
+					<div class="categoryBlock col-xs-8 col-xs-offset-2 col-md-3 col-md-offset-2">
 						<img src="img/nudeln_frei.png" class="img-responsive">
 						<div class="btn btn-default btn-block" role="button">
-							nudeln
+							Brot
 						</div>
 					</div> </a>
-					<a href="nudeln.php">
-					<div class="categoryBlock col-md-3 col-md-offset-2 col-xs-12">
+					<a href="subPages/kategorieNachtisch.php">
+					<div class="categoryBlock col-xs-8 col-xs-offset-2 col-md-3 col-md-offset-2 keinAbstand">
 						<img src="img/nudeln_frei.png" class="img-responsive">
 						<div class="btn btn-default btn-block" role="button">
-							nudeln
+							Nachtisch
 						</div>
 					</div> </a>
 				</div>

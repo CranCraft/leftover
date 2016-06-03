@@ -5,7 +5,6 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
-@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
@@ -6726,13 +6725,40 @@ button.close {
     display: none !important;
   }
 }
+@font-face {
+  font-family: Montserrat-Light;
+  src: url(fonts/montserrat/Montserrat-Light.otf);
+}
+@font-face {
+  font-family: Montserrat-UltraLight;
+  src: url(fonts/montserrat/Montserrat-UltraLight.otf);
+}
+@font-face {
+  font-family: Montserrat-Regular;
+  src: url(fonts/montserrat/Montserrat-Regular.otf);
+}
+@font-face {
+  font-family: Montserrat-Bold;
+  src: url(fonts/montserrat/Montserrat-Bold.otf);
+}
+@font-face {
+  font-family: Montserrat-SemiBold;
+  src: url(fonts/montserrat/Montserrat-SemiBold.otf);
+}
 html body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat-Light', sans-serif;
   text-transform: lowercase;
   text-align: center;
   letter-spacing: 2px;
   background-color: #000;
   -webkit-font-smoothing: antialiased;
+}
+html body a {
+  color: #fff;
+}
+html body a:hover {
+  color: #d3d3d3;
+  text-decoration: none;
 }
 html body #menu {
   position: fixed;
@@ -6779,13 +6805,16 @@ html body #header #headerLogo {
 html body #main {
   margin-bottom: 100px;
 }
+html body #main .normalText {
+  text-transform: initial;
+}
 html body #main .siteTitle,
 html body #main h4 {
+  font-family: 'Montserrat-SemiBold', sans-serif;
   border-radius: 0;
   border: none;
   color: #000;
   font-size: 20px;
-  font-weight: 900;
   letter-spacing: 8px;
 }
 html body #main.rezept p {
@@ -6793,6 +6822,9 @@ html body #main.rezept p {
 }
 html body #main.rezept .row {
   margin-top: 70px;
+}
+html body #main #dropdownButton {
+  max-width: 40px;
 }
 html body #main .row {
   margin-top: 100px;
@@ -6855,6 +6887,49 @@ html body #footer.container-fluid .footerList.secondList {
     max-width: 970px;
   }
 }
+@media (max-width: 767px) {
+  html body #wrapper #header #headerLogo img {
+    max-width: 160%;
+    margin-left: -30%;
+  }
+  html body #main .row {
+    margin-top: 50px;
+  }
+  html body #main .row .categoryBlock {
+    margin-bottom: 50px;
+  }
+  html body #main .row .keinAbstand {
+    margin-bottom: 0;
+  }
+}
+@media (min-width: 768px) {
+  html body #wrapper #header #headerLogo .col-xs-12 {
+    position: relative;
+    overflow: hidden;
+    height: 194px;
+  }
+  html body #wrapper #header #headerLogo img {
+    position: absolute;
+    top: -9999px;
+    bottom: -9999px;
+    left: -9999px;
+    right: -9999px;
+    margin: auto;
+    max-width: 160%;
+  }
+  html body #main .row {
+    margin-top: 70px;
+  }
+  html body #main .row .categoryBlock {
+    margin-bottom: 70px;
+  }
+  html body #main .row .keinAbstand {
+    margin-bottom: 0;
+  }
+}
+/* deprecated: @screen-tablet, or @screen-sm */
+/* deprecated: @screen-desktop, or @screen-md */
+/* deprecated: @screen-lg-desktop, or @screen-lg */
 .navbar {
   z-index: 100;
 }

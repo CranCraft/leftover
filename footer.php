@@ -2,16 +2,16 @@
 				<div class="col-xs-12">
 					<ul class="footerList firstList">
 						<li>
-							kartoffelrezepte
+							<a href="subPages/kategorieNudeln.php">Nudelrezepte</a>
 						</li>
 						<li>
-							nudelrezepte
+							<a href="subPages/kategorieReis.php">Reisrezepte</a>
 						</li>
 						<li>
-							reisrezepte
+							<a href="subPages/kategorieBrot.php">Brotrezepte</a>
 						</li>
 						<li>
-							brotrezepte
+							<a href="subPages/kategorieNachtisch.php">Nachtischrezepte</a>
 						</li>
 					</ul>
 				</div>
@@ -20,10 +20,10 @@
 				<div class="col-xs-12">
 					<ul class="footerList secondList">
 						<li>
-							<a href="subPages/impressum.php">impressum</a>
+							<a href="subPages/impressum.php">Impressum</a>
 						</li>
 						<li>
-							kontakt
+							<a href="subPages/kontakt.php">Kontakt</a>
 						</li>
 					</ul>
 				</div>

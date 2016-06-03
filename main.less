@@ -4,18 +4,49 @@
 @icon-font-path: "bootstrap-3.3.6/fonts/";
 
 //Import der Schriften
-@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+//@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+@font-face {  
+  font-family: Montserrat-Light;
+  src: url(fonts/montserrat/Montserrat-Light.otf); 
+}
+@font-face {  
+  font-family: Montserrat-UltraLight;
+  src: url(fonts/montserrat/Montserrat-UltraLight.otf); 
+}
+@font-face {  
+  font-family: Montserrat-Regular;
+  src: url(fonts/montserrat/Montserrat-Regular.otf); 
+}
+@font-face {  
+  font-family: Montserrat-Bold;
+  src: url(fonts/montserrat/Montserrat-Bold.otf); 
+}
+@font-face {  
+  font-family: Montserrat-SemiBold;
+  src: url(fonts/montserrat/Montserrat-SemiBold.otf); 
+}
+
+// Less Variabeln
+
+@abstandNormal: 50px;
 
 // Eigener LESS Code
 
 html {
   body {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat-Light', sans-serif;
     text-transform: lowercase;
     text-align: center;
     letter-spacing: 2px;
     background-color: #000;
      -webkit-font-smoothing: antialiased;
+     a {
+       color: #fff;
+       &:hover{
+          color: #d3d3d3;
+          text-decoration: none;
+       }
+     }
     #menu {
       position: fixed;
       top: 0;
@@ -67,13 +98,16 @@ html {
         }
     
     #main {
-      margin-bottom: 100px;
+      margin-bottom: @abstandNormal*2;
+      .normalText{
+        text-transform: initial;
+      }
       .siteTitle , h4{
+         font-family: 'Montserrat-SemiBold', sans-serif;
          border-radius: 0;
          border: none;
          color: #000;
          font-size: 20px;
-         font-weight: 900;
          letter-spacing: 8px;
       }
       &.rezept {
@@ -84,8 +118,11 @@ html {
           margin-top: 70px;
         }        
       }
+      #dropdownButton{
+        max-width: 40px;
+      }
       .row {
-        margin-top: 100px;
+        margin-top: @abstandNormal*2;
         .categoryBlock {
           position: center;
           cursor: pointer;
@@ -158,6 +195,69 @@ html {
       max-width: 970px;
   }
 }
+
+@media(max-width: @screen-xs-max){
+  html body {
+    #wrapper {
+      #header {
+        #headerLogo {
+          img {
+            max-width: 160%;
+            margin-left: -30%;
+          }  
+        }
+      }
+    }
+    #main {
+      .row {
+        margin-top: @abstandNormal;
+       .categoryBlock {
+          margin-bottom: @abstandNormal;
+        }
+        .keinAbstand {
+          margin-bottom: 0;
+        }
+      }
+    }
+  }
+}
+@media(min-width: @screen-sm-min){
+    html body {
+    #wrapper {
+      #header {
+        #headerLogo {
+          .col-xs-12 {
+            position: relative;
+            overflow: hidden;
+            height: 194px;
+          }
+          img {
+            position: absolute;
+            top: -9999px;
+            bottom: -9999px;
+            left: -9999px;
+            right: -9999px;
+            margin: auto;
+            max-width: 160%;
+          }  
+        }
+      }
+    }
+    #main {
+      .row {
+        margin-top: @abstandNormal+20px;
+       .categoryBlock {
+          margin-bottom: @abstandNormal+20px;
+        }
+        .keinAbstand {
+          margin-bottom: 0;
+        }
+      }
+    }
+  }
+}  /* deprecated: @screen-tablet, or @screen-sm */
+@media(min-width: @screen-md-min){}  /* deprecated: @screen-desktop, or @screen-md */
+@media(min-width: @screen-lg-min){}  /* deprecated: @screen-lg-desktop, or @screen-lg */
 
 // MENU
 
