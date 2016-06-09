@@ -25,14 +25,21 @@ include ('../header.php');
 					</div>
 					<div class="row">
 						<a href="Rezepte/NUDELNMITTOMATENSAUCE.php">
-						<div class="categoryBlock col-md-3 col-md-offset-2 col-xs-12">
+						<div class="categoryBlock col-lg-4 col-lg-offset-0 col-md-3 col-md-offset-2 col-xs-12">
 							<img src="../img/nudeln_frei.png" class="img-responsive">
 							<div class="btn btn-default btn-block" role="button">
 								Pomodoro
 							</div>
 						</div> </a>
 						<a href="#">
-						<div class="categoryBlock col-md-3 col-md-offset-2 col-xs-12">
+						<div class="categoryBlock col-lg-4 col-lg-offset-0 col-md-3 col-md-offset-2 col-xs-12">
+							<img src="../img/nudeln_frei.png" class="img-responsive">
+							<div class="btn btn-default btn-block" role="button">
+								nudeln
+							</div>
+						</div> </a>
+						<a href="#">
+						<div class="categoryBlock col-lg-4 visible-lg-block">
 							<img src="../img/nudeln_frei.png" class="img-responsive">
 							<div class="btn btn-default btn-block" role="button">
 								nudeln
@@ -41,14 +48,21 @@ include ('../header.php');
 					</div>
 					<div class="row">
 						<a href="#">
-						<div class="categoryBlock col-md-3 col-md-offset-2 col-xs-12">
+						<div class="categoryBlock col-lg-4 col-lg-offset-0 col-md-3 col-md-offset-2 col-xs-12">
 							<img src="../img/nudeln_frei.png" class="img-responsive">
 							<div class="btn btn-default btn-block" role="button">
 								nudeln
 							</div>
 						</div> </a>
 						<a href="#">
-						<div class="categoryBlock col-md-3 col-md-offset-2 col-xs-12">
+						<div class="categoryBlock col-lg-4 col-lg-offset-0 col-md-3 col-md-offset-2 col-xs-12">
+							<img src="../img/nudeln_frei.png" class="img-responsive">
+							<div class="btn btn-default btn-block" role="button">
+								nudeln
+							</div>
+						</div> </a>
+						<a href="#">
+						<div class="categoryBlock col-lg-4 visible-lg-block">
 							<img src="../img/nudeln_frei.png" class="img-responsive">
 							<div class="btn btn-default btn-block" role="button">
 								nudeln

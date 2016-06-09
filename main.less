@@ -124,7 +124,6 @@ html {
       .row {
         margin-top: @abstandNormal*2;
         .categoryBlock {
-          position: center;
           cursor: pointer;
           .btn {
            transition: all .2s ease-in-out; 
@@ -256,8 +255,29 @@ html {
     }
   }
 }  /* deprecated: @screen-tablet, or @screen-sm */
-@media(min-width: @screen-md-min){}  /* deprecated: @screen-desktop, or @screen-md */
-@media(min-width: @screen-lg-min){}  /* deprecated: @screen-lg-desktop, or @screen-lg */
+@media(min-width: @screen-md-min){
+ html body {
+    #main {
+      .row {
+        margin-top: @abstandNormal;
+       .categoryBlock {
+          margin-bottom: @abstandNormal;
+        }
+      }
+    }
+  }  
+}  /* deprecated: @screen-desktop, or @screen-md */
+@media(min-width: @screen-lg-min){
+  html {
+    body {
+      #main {
+        width: 90%;
+        margin: 0 auto;
+        margin-bottom: 100px;
+      }
+    }
+  }
+}  /* deprecated: @screen-lg-desktop, or @screen-lg */
 
 // MENU
 

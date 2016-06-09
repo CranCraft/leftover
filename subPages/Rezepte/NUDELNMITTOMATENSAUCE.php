@@ -49,14 +49,37 @@ include ('../../header.php');
 							Parmesan
 							<br/>
 						</p>
+						<ul class="list-group">
+							<li class="list-group-item">
+								Cras justo odio
+							</li>
+							<li class="list-group-item">
+								1 Zwiebel
+							</li>
+							<li class="list-group-item">
+								1 Knoblauchzehe
+							</li>
+							<li class="list-group-item">
+								1 große Dose Tomaten (800g) oder die gleiche Menge passierte Tomaten
+							</li>
+							<li class="list-group-item">
+								Salz, Pfeffer
+							</li>
+							<li class="list-group-item">
+								Basilikum, (evtl. auch noch Thymian + Rosmarin+Oregano)
+							</li>
+							<li class="list-group-item">
+								Parmesan
+							</li>
+						</ul>
 					</div>
 				</div>
 				<div class="row">
 					<h4>Zubereitung</h4>
 				</div>
 				<div class="row">
-					<div class="col-sm-4 col-sm-offset-2 col-xs-12">
-						<p class="text-center normalText text-justify">
+					<div class="col-xs-10 col-xs-offset-1">
+						<p class="text-center normalText">
 							Zwiebel und Knoblauch schälen und würfeln. etwas Öl in einer großen Pfanne erhitzen. Zwiebel und Knoblauch darin glasig dünsten.
 							<br/>
 							<br/>
@@ -65,10 +88,6 @@ include ('../../header.php');
 							<br/>
 							Die Kräuter e ich in der Sauce ganz besonders wichtig! Am besten natürlich frisch, TK-Kräuter verwende ich aber auch ab und an. Nur die Getrockneten mag ich nicht so - sie schmecken einfach nicht intensiv genug. Ihr könnt Euch auf Basilikum beschränken, Thymian, Rosmarin und Oregano passen aber auch noch super dazu. Je mehr Kräuter, umso besser :)!
 							<br />
-						</p>
-					</div>
-					<div class="col-sm-4 col-xs-12">
-						<p class="text-center normalText text-justify">
 							Zwiebel und Knoblauch schälen und würfeln. etwas Öl in einer großen Pfanne erhitzen. Zwiebel und Knoblauch darin glasig dünsten.
 							<br/>
 							<br/>
