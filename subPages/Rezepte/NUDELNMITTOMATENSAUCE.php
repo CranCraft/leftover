@@ -32,46 +32,42 @@ include ('../../header.php');
 					<h4>Zutaten</h4>
 				</div>
 				<div class="row">
-					<div class="col-xs-12">
-						<p class="text-center">
-							1 Zwiebel
-							<br/>
-							1 Knoblauchzehe
-							<br/>
-							etwas Olivenöl
-							<br/>
-							1 große Dose Tomaten (800g) oder die gleiche Menge passierte Tomaten
-							<br/>
-							Salz, Pfeffer
-							<br/>
-							Basilikum, (evtl. auch noch Thymian + Rosmarin+Oregano)
-							<br/>
-							Parmesan
-							<br/>
-						</p>
-						<ul class="list-group">
-							<li class="list-group-item">
-								Cras justo odio
-							</li>
-							<li class="list-group-item">
+					<div class="col-xs-12 zutaten">
+						<div>
+							<p>
 								1 Zwiebel
-							</li>
-							<li class="list-group-item">
+							</p>
+						</div>
+						<div>
+							<p>
 								1 Knoblauchzehe
-							</li>
-							<li class="list-group-item">
+							</p>
+						</div>
+						<div>
+							<p>
+								etwas Olivenöl
+							</p>
+						</div>
+						<div>
+							<p>
 								1 große Dose Tomaten (800g) oder die gleiche Menge passierte Tomaten
-							</li>
-							<li class="list-group-item">
+							</p>
+						</div>
+						<div>
+							<p>
 								Salz, Pfeffer
-							</li>
-							<li class="list-group-item">
+							</p>
+						</div>
+						<div>
+							<p>
 								Basilikum, (evtl. auch noch Thymian + Rosmarin+Oregano)
-							</li>
-							<li class="list-group-item">
+							</p>
+						</div>
+						<div>
+							<p>
 								Parmesan
-							</li>
-						</ul>
+							</p>
+						</div>
 					</div>
 				</div>
 				<div class="row">
