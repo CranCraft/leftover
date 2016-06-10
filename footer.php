@@ -2,16 +2,16 @@
 				<div class="col-xs-12">
 					<ul class="footerList firstList">
 						<li>
-							<a href="subPages/kategorieNudeln.php">Nudelrezepte</a>
+							<a href="/leftover/leftover/subPages/kategorieNudeln.php">Nudelrezepte</a>
 						</li>
 						<li>
-							<a href="subPages/kategorieReis.php">Reisrezepte</a>
+							<a href="/leftover/leftover/subPages/kategorieReis.php">Reisrezepte</a>
 						</li>
 						<li>
-							<a href="subPages/kategorieBrot.php">Brotrezepte</a>
+							<a href="/leftover/leftover/subPages/kategorieBrot.php">Brotrezepte</a>
 						</li>
 						<li>
-							<a href="subPages/kategorieNachtisch.php">Nachtischrezepte</a>
+							<a href="/leftover/leftover/subPages/kategorieNachtisch.php">Nachtischrezepte</a>
 						</li>
 					</ul>
 				</div>
@@ -20,10 +20,10 @@
 				<div class="col-xs-12">
 					<ul class="footerList secondList">
 						<li>
-							<a href="subPages/impressum.php">Impressum</a>
+							<a href="/leftover/leftover/subPages/impressum.php">Impressum</a>
 						</li>
 						<li>
-							<a href="subPages/kontakt.php">Kontakt</a>
+							<a href="/leftover/leftover/subPages/kontakt.php">Kontakt</a>
 						</li>
 					</ul>
 				</div>

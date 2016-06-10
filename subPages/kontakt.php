@@ -3,73 +3,81 @@
 <?php
 include ('../header.php');
 ?>
-	<body>
-		<div id="wrapper">
-			<div class="container-fluid">
-				<div id="header">
-					<div id="bottomHeaderContent">
-						<div id="headerLogo">
-							<div class="row">
-								<div class="col-xs-12">
-									<a href="../index.php">
-									<img src="../img/logoBanner.png" class="img-responsive">
-									</a>
-								</div>
+<body>
+	<div id="wrapper">
+		<div class="container-fluid">
+			<div id="header">
+				<div id="bottomHeaderContent">
+					<div id="headerLogo">
+						<div class="row">
+							<div class="col-xs-12">
+								<a href="../index.php"> <img src="../img/logoBanner.png" class="img-responsive"> </a>
 							</div>
 						</div>
 					</div>
 				</div>
-				<div id="main">
-					<div class="row">
-						<div "col-md-12">
-							<div class="caption">
-								contact
-							</div>
-							<form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
-								<div class="row">
-									<label for="name">dein name:</label><br />
-									<input id="name" class="input" name="name" type="text" value="" size="30" /><br />
-								</div>
-								<div class="row">
-									<label for="email">deine email:</label><br />
-									<input id="email" class="input" name="email" type="text" value="" size="30" /><br />
-								</div>
-								<div class="row">
-									<label for="message">deine message:</label><br />
-									<textarea id="message" class="input" name="message" rows="7" cols="30"></textarea><br />
-								<input id="submit_button" type="submit" value="Send email" />
-								</div>								
-							</form>						
+			</div>
+			<div id="main">
+				<div class="row">
+					<div id="contact_form" class="col-xs-10 col-xs-offset-1">
+						<div class="well well-sm">
+							<form class="form-horizontal" action="" method="post">
+								<fieldset>
+									<legend class="text-center">
+										Schreib Uns
+									</legend>
+
+									<!-- Name input-->
+									<div class="form-group">
+										<label class="col-md-3 control-label" for="name">Name</label>
+										<div class="col-md-9">
+											<input id="name" name="name" type="text" placeholder="Dein Name" class="form-control">
+										</div>
+									</div>
+
+									<!-- Email input-->
+									<div class="form-group">
+										<label class="col-md-3 control-label" for="email">Deine E-Mail</label>
+										<div class="col-md-9">
+											<input id="email" name="email" type="text" placeholder="Deine E-Mail Adresse" class="form-control">
+										</div>
+									</div>
+
+									<!-- Message body -->
+									<div class="form-group">
+										<label class="col-md-3 control-label" for="message">Deine Nachricht</label>
+										<div class="col-md-9">
+											<textarea class="form-control" id="message" name="message" placeholder="Hier kannst du deine Nachricht hinterlassen..." rows="5"></textarea>
+										</div>
+									</div>
+
+									<!-- Form actions -->
+									<div class="form-group">
+										<div class="col-md-12 text-right">
+											<button id="submit_button" type="submit" class="btn btn-primary btn-lg">
+												Absenden
+											</button>
+										</div>
+									</div>
+								</fieldset>
+							</form>
 						</div>
-					</div> 
+					</div>
 				</div>
-				<div id="footer"></div>
 			</div>
 		</div>
-		  <nav class="navbar navbar-fixed-right navbar-minimal animate" role="navigation">
-		<div class="navbar-toggler animate">
-			<span class="menu-icon"></span>
+		<div id="footer" class="container-fluid">
+			<!-- Footer Datei wird eingefügt-->
+
+			<?php
+			include ('../footer.php');
+			?>
 		</div>
-		<ul class="navbar-menu animate">
-			<li>
-				<a href="index.php" class="animate">
-					<span class="desc animate"> Home </span>
-					<span class="glyphicon glyphicon-home"></span>
-				</a>
-			</li>
-			<li>
-				<a href="aboutUs.php" class="animate">
-					<span class="desc animate"> Who We Are </span>
-					<span class="glyphicon glyphicon-user"></span>
-				</a>
-			</li>
-			<li>
-				<a href="info.php" class="animate">
-					<span class="desc animate"> Info </span>
-					<span class="glyphicon glyphicon-info-sign"></span>
-				</a>
-			</li>
-		</ul>
-	</nav>
-	</body>
+		<!-- Menu Datei wird eingefügt
+
+		<?php
+		include ('subPages/menu.php');
+		?>
+		-->
+</body>
 </html>
