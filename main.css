@@ -6826,19 +6826,8 @@ html body #main .row {
 html body #main .row .categoryBlock {
   cursor: pointer;
 }
-html body #main .row .categoryBlock .btn {
-  transition: all 0.2s ease-in-out;
-  letter-spacing: 8px;
-  font-size: 20px;
-}
 html body #main .row .categoryBlock:hover .btn {
   letter-spacing: 2px;
-}
-html body #main .row .categoryBlock .btn-default {
-  border-radius: 0;
-  background-color: #000;
-  border: none;
-  color: #fff;
 }
 html body #main .row .categoryBlock img {
   margin-bottom: 20px;
@@ -6851,10 +6840,36 @@ html body #main div .zutaten p {
 html body #contact_form textarea {
   resize: vertical;
 }
-html body #submit_button {
+html body #contact_form legend {
+  border-bottom: none;
+}
+html body #contact_form .form-control {
+  border-radius: initial;
+}
+html body #contact_form label {
+  margin-bottom: 15px;
+}
+html body #contact_form .btn-default {
+  width: 100%;
+  margin-top: 15px;
+}
+html body #submit_button,
+html body .btn-default {
   border: none;
   color: #fff;
   background-color: #000;
+  text-transform: lowercase !important;
+  border-radius: 0;
+  transition: all 0.2s ease-in-out;
+  letter-spacing: 8px;
+  font-size: 20px;
+}
+html body #submit_button:hover,
+html body .btn-default:hover {
+  letter-spacing: 2px;
+  background-color: #000;
+  border: #000;
+  color: #fff;
 }
 html body #footer.container-fluid {
   background-color: #000;

@@ -120,20 +120,12 @@ html {
         .categoryBlock {
           cursor: pointer;
           .btn {
-           transition: all .2s ease-in-out; 
-           letter-spacing: 8px;
-           font-size: 20px;
+       
           }          
           &:hover {
             .btn {
               letter-spacing: 2px;
             }
-          }
-          .btn-default {
-            border-radius: 0;
-            background-color: #000;
-            border: none;
-            color: #fff;
           }
           img {
             margin-bottom: 20px;
@@ -151,13 +143,36 @@ html {
       textarea {
         resize: vertical;
       }
+      legend {
+        border-bottom: none;
+      }
+      .form-control {
+        border-radius: initial;
+      }
+      label {
+        margin-bottom: 15px;
+      }
+      .btn-default {
+        width: 100%;
+        margin-top: 15px;
+      }
     }
     
-    #submit_button{
+    #submit_button, .btn-default{
       border: none;
       color: #fff;
       background-color: #000;
-      //padding-top:-350px;
+      text-transform: lowercase !important;
+      border-radius: 0;
+      transition: all .2s ease-in-out; 
+      letter-spacing: 8px;
+      font-size: 20px;
+       &:hover {
+          letter-spacing: 2px;
+          background-color: #000;
+          border: #000;
+          color: #fff;
+       }
     }
     
     #footer.container-fluid{ 
