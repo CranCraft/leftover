@@ -26,9 +26,9 @@ include ('../header.php');
 					<div class="row">
 						<a href="nudeln.php">
 						<div class="categoryBlock col-md-3 col-md-offset-2 col-xs-12">
-							<img src="../img/nudeln_frei.png" class="img-responsive">
+							<img src="../img/brownie.png" class="img-responsive">
 							<div class="btn btn-default btn-block" role="button">
-								nudeln
+								brownie
 							</div>
 						</div> </a>
 						<a href="#">

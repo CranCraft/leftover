@@ -24,11 +24,11 @@ include ('../header.php');
 						</div>
 					</div>
 					<div class="row">
-						<a href="nudeln.php">
+						<a href="frenchToast.php">
 						<div class="categoryBlock col-md-3 col-md-offset-2 col-xs-12">
-							<img src="../img/nudeln_frei.png" class="img-responsive">
+							<img src="../img/frenchToast.png" class="img-responsive">
 							<div class="btn btn-default btn-block" role="button">
-								nudeln
+								french toast
 							</div>
 						</div> </a>
 						<a href="#">

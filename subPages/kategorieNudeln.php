@@ -26,44 +26,67 @@ include ('../header.php');
 					<div class="row">
 						<a href="Rezepte/NUDELNMITTOMATENSAUCE.php">
 						<div class="categoryBlock col-lg-4 col-lg-offset-0 col-md-3 col-md-offset-2 col-xs-12">
-							<img src="../img/nudeln_frei.png" class="img-responsive">
+							<img src="../img/tomatensauce.png" class="img-responsive">
 							<div class="btn btn-default btn-block" role="button">
 								Pomodoro
 							</div>
 						</div> </a>
 						<a href="#">
 						<div class="categoryBlock col-lg-4 col-lg-offset-0 col-md-3 col-md-offset-2 col-xs-12">
-							<img src="../img/nudeln_frei.png" class="img-responsive">
+							<img src="../img/spinatKäse.png" class="img-responsive">
 							<div class="btn btn-default btn-block" role="button">
-								nudeln
+								käse-spinat
 							</div>
 						</div> </a>
 						<a href="#">
 						<div class="categoryBlock col-lg-4 visible-lg-block">
-							<img src="../img/nudeln_frei.png" class="img-responsive">
+							<img src="../img/tomateKnoblauch.png" class="img-responsive">
 							<div class="btn btn-default btn-block" role="button">
-								nudeln
+								tomate-knobi
 							</div>
 						</div> </a>
 					</div>
 					<div class="row">
 						<a href="#">
 						<div class="categoryBlock col-lg-4 col-lg-offset-0 col-md-3 col-md-offset-2 col-xs-12">
-							<img src="../img/nudeln_frei.png" class="img-responsive">
+							<img src="../img/bratNudeln.png" class="img-responsive">
 							<div class="btn btn-default btn-block" role="button">
-								nudeln
+								bratnudeln
 							</div>
 						</div> </a>
 						<a href="#">
 						<div class="categoryBlock col-lg-4 col-lg-offset-0 col-md-3 col-md-offset-2 col-xs-12">
-							<img src="../img/nudeln_frei.png" class="img-responsive">
+							<img src="../img/cabonara.png" class="img-responsive">
 							<div class="btn btn-default btn-block" role="button">
-								nudeln
+								cabonara
 							</div>
 						</div> </a>
 						<a href="#">
 						<div class="categoryBlock col-lg-4 visible-lg-block">
-							<img src="../img/nudeln_frei.png" class="img-responsive">
+							<img src="../img/pesto.png" class="img-responsive">
+							<div class="btn btn-default btn-block" role="button">
+								pesto
+							</div>
+						</div> </a>
+					</div>
+					<div class="row">
+						<a href="#">
+						<div class="categoryBlock col-lg-4 col-lg-offset-0 col-md-3 col-md-offset-2 col-xs-12">
+							<img src="../img/bolognese.png" class="img-responsive">
+							<div class="btn btn-default btn-block" role="button">
+								bolognese
+							</div>
+						</div> </a>
+						<a href="#">
+						<div class="categoryBlock col-lg-4 col-lg-offset-0 col-md-3 col-md-offset-2 col-xs-12">
+							<img src="../img/spinat.png" class="img-responsive">
+							<div class="btn btn-default btn-block" role="button">
+								spinat
+							</div>
+						</div> </a>
+						<a href="#">
+						<div class="categoryBlock col-lg-4 visible-lg-block">
+							<img src="../img/trockeneTomaten.png" class="img-responsive">
 							<div class="btn btn-default btn-block" role="button">
 								nudeln
 							</div>
