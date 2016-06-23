@@ -55,7 +55,7 @@ include ('../../header.php');
 				</div>
 				<div class="row">
 					<div class="col-xs-10 col-xs-offset-1">
-						<p class="text-center normalText">
+						<p class="text-center">
 							Verrühre alle Zutaten miteinander. 
 							<br/>
 							<br/>
