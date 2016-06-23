@@ -26,7 +26,7 @@
 					<div class="categoryBlock col-xs-8 col-xs-offset-2 col-md-3 col-md-offset-2 keinAbstand">
 						<img src="img/schokolade.png" class="img-responsive">
 						<div class="btn btn-default btn-block" role="button">
-							Nachtisch
+							Zucker
 						</div>
 					</div> </a>
 				</div>

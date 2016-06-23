@@ -20,7 +20,7 @@ include ('../header.php');
 				<div id="main">
 					<div class="row">
 						<div class="col-md-4 col-md-offset-4 col-xs-12 siteTitle">
-							Nachtisch Rezepte
+							Zucker Rezepte
 						</div>
 					</div>
 					<div class="row">
