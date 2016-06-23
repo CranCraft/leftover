@@ -6900,9 +6900,18 @@ html body #footer.container-fluid .footerList.secondList {
   }
 }
 @media (max-width: 767px) {
+  html body #wrapper #header #headerLogo {
+    margin-top: 150px;
+    margin-bottom: 110px;
+  }
   html body #wrapper #header #headerLogo img {
-    max-width: 160%;
-    margin-left: -30%;
+    position: absolute;
+    top: -9999px;
+    bottom: -9999px;
+    left: -9999px;
+    right: -9999px;
+    margin: auto;
+    max-width: 200%;
   }
   html body #main .row {
     margin-top: 50px;
@@ -6937,6 +6946,9 @@ html body #footer.container-fluid .footerList.secondList {
   }
   html body #main .row .keinAbstand {
     margin-bottom: 0;
+  }
+  html body #main .btn-default {
+    letter-spacing: 3px;
   }
 }
 /* deprecated: @screen-tablet, or @screen-sm */

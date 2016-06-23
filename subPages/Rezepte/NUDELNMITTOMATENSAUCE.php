@@ -24,7 +24,7 @@ include ('../../header.php');
 					</div>
 				</div>
 				<div class="row">
-					<div class="col-md-6 col-md-offset-3 col-xs-12">
+					<div class="col-md-4 col-md-offset-4 col-xs-12">
 						<img src="../../img/tomatensauce.png" class="img-responsive">
 					</div>
 				</div>
@@ -75,11 +75,11 @@ include ('../../header.php');
 				</div>
 				<div class="row">
 					<div class="col-xs-10 col-xs-offset-1">
-						<p class="text-center normalText">
+						<p class="text-center">
 							Zwiebel und Knoblauch schälen und würfeln. etwas Öl in einer großen Pfanne erhitzen.
 							<br/>
 							<br/>
-							Tomaten zugeben Aufkochen und auf kleiner Flamm 30 Min. köcheln lassen. Zum Schluss noch etwa 2 El Öl unterziehen und würzen.
+							Tomaten zugeben Aufkochen und auf kleiner Flamme 30 Min. köcheln lassen. Zum Schluss noch etwa 2 El Öl unterziehen und würzen.
 							<br/>
 						</p>
 					</div>

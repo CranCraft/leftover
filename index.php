@@ -28,7 +28,7 @@ include ('header.php');
 					<div class="col-xs-12">
 						<a role="button" data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample"> <img id="dropdownButton" class="img-responsive center-block" src="img/dropDownButton.png"> </a>
 						<div class="collapse col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2" id="collapseExample">
-							<p class="normalText" style="margin-top: 50px;">
+							<p style="margin-top: 50px;">
 								leftover ist unser kleines Projekt. Wir sind vier Studenten der Hochschule Bremen und</br>
 								haben dieses Kochbuch für euch von Grund auf konstruiert.</br>
 								Hier zeigen wir euch, was wir aus unseren Resten gezaubert haben.
