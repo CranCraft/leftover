@@ -20,12 +20,12 @@ include ('../../header.php');
 			<div id="main" class="rezept">
 				<div class="row">
 					<div class="col-md-4 col-md-offset-4 col-xs-12 siteTitle">
-						pomodoro
+						pesto
 					</div>
 				</div>
 				<div class="row">
 					<div class="col-md-6 col-md-offset-3 col-xs-12">
-						<img src="../../img/tomatensauce.png" class="img-responsive">
+						<img src="../../img/pesto.png" class="img-responsive">
 					</div>
 				</div>
 				<div class="row">
@@ -35,37 +35,27 @@ include ('../../header.php');
 					<div class="col-xs-12 zutaten">
 						<div>
 							<p>
-								1 Zwiebel
+								100g Maccheroni
 							</p>
 						</div>
 						<div>
 							<p>
-								1 Knoblauchzehe
+								20g  Basilikum
 							</p>
 						</div>
 						<div>
 							<p>
-								etwas Olivenöl
+								10g Pinienkerne
 							</p>
 						</div>
 						<div>
 							<p>
-								1 große Dose Tomaten (800g) oder die gleiche Menge passierte Tomaten
+								½ Knoblauchzehe
 							</p>
 						</div>
 						<div>
 							<p>
-								Salz, Pfeffer
-							</p>
-						</div>
-						<div>
-							<p>
-								Basilikum, (evtl. auch noch Thymian + Rosmarin+Oregano)
-							</p>
-						</div>
-						<div>
-							<p>
-								Parmesan
+								Olivenöl
 							</p>
 						</div>
 					</div>
@@ -76,10 +66,12 @@ include ('../../header.php');
 				<div class="row">
 					<div class="col-xs-10 col-xs-offset-1">
 						<p class="text-center normalText">
-							Zwiebel und Knoblauch schälen und würfeln. etwas Öl in einer großen Pfanne erhitzen.
+							Alle Zutaten pürieren oder in einem Mörser fein verreiben.
 							<br/>
 							<br/>
-							Tomaten zugeben Aufkochen und auf kleiner Flamm 30 Min. köcheln lassen. Zum Schluss noch etwa 2 El Öl unterziehen und würzen.
+							Olivenöl hinzufügen.
+							<br/>
+							Anschließend die Nudeln kochen und mit dem Pesto servieren.
 							<br/>
 						</p>
 					</div>

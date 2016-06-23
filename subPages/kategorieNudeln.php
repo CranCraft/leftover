@@ -31,14 +31,14 @@ include ('../header.php');
 								Pomodoro
 							</div>
 						</div> </a>
-						<a href="#">
+						<a href="Rezepte/käseSpinat.php">
 						<div class="categoryBlock col-lg-4 col-lg-offset-0 col-md-3 col-md-offset-2 col-xs-12">
 							<img src="../img/spinatKäse.png" class="img-responsive">
 							<div class="btn btn-default btn-block" role="button">
 								käse-spinat
 							</div>
 						</div> </a>
-						<a href="#">
+						<a href="Rezepte/knoblauch.php">
 						<div class="categoryBlock col-lg-4 visible-lg-block">
 							<img src="../img/tomateKnoblauch.png" class="img-responsive">
 							<div class="btn btn-default btn-block" role="button">
@@ -47,21 +47,21 @@ include ('../header.php');
 						</div> </a>
 					</div>
 					<div class="row">
-						<a href="#">
+						<a href="Rezepte/bratNudeln.php">
 						<div class="categoryBlock col-lg-4 col-lg-offset-0 col-md-3 col-md-offset-2 col-xs-12">
 							<img src="../img/bratNudeln.png" class="img-responsive">
 							<div class="btn btn-default btn-block" role="button">
 								bratnudeln
 							</div>
 						</div> </a>
-						<a href="#">
+						<a href="Rezepte/cabonara.php">
 						<div class="categoryBlock col-lg-4 col-lg-offset-0 col-md-3 col-md-offset-2 col-xs-12">
 							<img src="../img/cabonara.png" class="img-responsive">
 							<div class="btn btn-default btn-block" role="button">
-								cabonara
+								carbonara
 							</div>
 						</div> </a>
-						<a href="#">
+						<a href="Rezepte/pesto.php">
 						<div class="categoryBlock col-lg-4 visible-lg-block">
 							<img src="../img/pesto.png" class="img-responsive">
 							<div class="btn btn-default btn-block" role="button">
@@ -70,25 +70,25 @@ include ('../header.php');
 						</div> </a>
 					</div>
 					<div class="row">
-						<a href="#">
+						<a href="Rezepte/bolognese.php">
 						<div class="categoryBlock col-lg-4 col-lg-offset-0 col-md-3 col-md-offset-2 col-xs-12">
 							<img src="../img/bolognese.png" class="img-responsive">
 							<div class="btn btn-default btn-block" role="button">
 								bolognese
 							</div>
 						</div> </a>
-						<a href="#">
+						<a href="Rezepte/spinat.php">
 						<div class="categoryBlock col-lg-4 col-lg-offset-0 col-md-3 col-md-offset-2 col-xs-12">
 							<img src="../img/spinat.png" class="img-responsive">
 							<div class="btn btn-default btn-block" role="button">
 								spinat
 							</div>
 						</div> </a>
-						<a href="#">
+						<a href="Rezepte/trockeneTomaten.php">
 						<div class="categoryBlock col-lg-4 visible-lg-block">
 							<img src="../img/trockeneTomaten.png" class="img-responsive">
 							<div class="btn btn-default btn-block" role="button">
-								nudeln
+								tomaten
 							</div>
 						</div> </a>
 					</div>

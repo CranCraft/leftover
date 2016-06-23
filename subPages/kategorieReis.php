@@ -24,34 +24,34 @@ include ('../header.php');
 						</div>
 					</div>
 					<div class="row">
-						<a href="nudeln.php">
+						<a href="/leftover/subPages/Rezepte/reisMais.php">
 						<div class="categoryBlock col-md-3 col-md-offset-2 col-xs-12">
 							<img src="../img/reisMais.png" class="img-responsive">
 							<div class="btn btn-default btn-block" role="button">
 								mais-reis
 							</div>
 						</div> </a>
-						<a href="#">
+						<a href="/leftover/subPages/Rezepte/reisMais.php">
 						<div class="categoryBlock col-md-3 col-md-offset-2 col-xs-12">
-							<img src="../img/nudeln_frei.png" class="img-responsive">
+							<img src="../img/reisMais.png" class="img-responsive">
 							<div class="btn btn-default btn-block" role="button">
-								nudeln
+								mais-reis
 							</div>
 						</div> </a>
 					</div>
 					<div class="row">
-						<a href="#">
+						<a href="/leftover/subPages/Rezepte/reisMais.php">
 						<div class="categoryBlock col-md-3 col-md-offset-2 col-xs-12">
-							<img src="../img/nudeln_frei.png" class="img-responsive">
+							<img src="../img/reisMais.png" class="img-responsive">
 							<div class="btn btn-default btn-block" role="button">
-								nudeln
+								mais-reis
 							</div>
 						</div> </a>
-						<a href="#">
+						<a href="/leftover/subPages/Rezepte/reisMais.php">
 						<div class="categoryBlock col-md-3 col-md-offset-2 col-xs-12">
-							<img src="../img/nudeln_frei.png" class="img-responsive">
+							<img src="../img/reisMais.png" class="img-responsive">
 							<div class="btn btn-default btn-block" role="button">
-								nudeln
+								mais-reis
 							</div>
 						</div> </a>
 					</div>

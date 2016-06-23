@@ -20,12 +20,12 @@ include ('../../header.php');
 			<div id="main" class="rezept">
 				<div class="row">
 					<div class="col-md-4 col-md-offset-4 col-xs-12 siteTitle">
-						pomodoro
+						tomaten
 					</div>
 				</div>
 				<div class="row">
 					<div class="col-md-6 col-md-offset-3 col-xs-12">
-						<img src="../../img/tomatensauce.png" class="img-responsive">
+						<img src="../../img/trockeneTomaten.png" class="img-responsive">
 					</div>
 				</div>
 				<div class="row">
@@ -35,37 +35,27 @@ include ('../../header.php');
 					<div class="col-xs-12 zutaten">
 						<div>
 							<p>
-								1 Zwiebel
+								500g Tagliatelle
 							</p>
 						</div>
 						<div>
 							<p>
-								1 Knoblauchzehe
+								2 Knoblauchzehen
 							</p>
 						</div>
 						<div>
 							<p>
-								etwas Olivenöl
+								4el getrocknete Tomaten
 							</p>
 						</div>
 						<div>
 							<p>
-								1 große Dose Tomaten (800g) oder die gleiche Menge passierte Tomaten
+								6el öl
 							</p>
 						</div>
 						<div>
 							<p>
-								Salz, Pfeffer
-							</p>
-						</div>
-						<div>
-							<p>
-								Basilikum, (evtl. auch noch Thymian + Rosmarin+Oregano)
-							</p>
-						</div>
-						<div>
-							<p>
-								Parmesan
+								Olivenöl
 							</p>
 						</div>
 					</div>
@@ -76,11 +66,16 @@ include ('../../header.php');
 				<div class="row">
 					<div class="col-xs-10 col-xs-offset-1">
 						<p class="text-center normalText">
-							Zwiebel und Knoblauch schälen und würfeln. etwas Öl in einer großen Pfanne erhitzen.
+							Knoblauchzehen in feine Würfel schneiden.
 							<br/>
 							<br/>
-							Tomaten zugeben Aufkochen und auf kleiner Flamm 30 Min. köcheln lassen. Zum Schluss noch etwa 2 El Öl unterziehen und würzen.
+							Anschließend die Tagliatelle nach Packungsanweisung kochen.
 							<br/>
+							Die Tomaten in feine Streifen schneiden und unter die gegarten Tagliatelle unterheben.
+							<br/>
+							</br>
+							Zum Schluss wenn gewünscht würzen.
+							</br>
 						</p>
 					</div>
 				</div>

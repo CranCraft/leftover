@@ -20,12 +20,12 @@ include ('../../header.php');
 			<div id="main" class="rezept">
 				<div class="row">
 					<div class="col-md-4 col-md-offset-4 col-xs-12 siteTitle">
-						pomodoro
+						bratnudeln
 					</div>
 				</div>
 				<div class="row">
 					<div class="col-md-6 col-md-offset-3 col-xs-12">
-						<img src="../../img/tomatensauce.png" class="img-responsive">
+						<img src="../../img/bratNudeln.png" class="img-responsive">
 					</div>
 				</div>
 				<div class="row">
@@ -35,37 +35,17 @@ include ('../../header.php');
 					<div class="col-xs-12 zutaten">
 						<div>
 							<p>
-								1 Zwiebel
+								150g Nudeln
 							</p>
 						</div>
 						<div>
 							<p>
-								1 Knoblauchzehe
+								Butter
 							</p>
 						</div>
 						<div>
 							<p>
-								etwas Olivenöl
-							</p>
-						</div>
-						<div>
-							<p>
-								1 große Dose Tomaten (800g) oder die gleiche Menge passierte Tomaten
-							</p>
-						</div>
-						<div>
-							<p>
-								Salz, Pfeffer
-							</p>
-						</div>
-						<div>
-							<p>
-								Basilikum, (evtl. auch noch Thymian + Rosmarin+Oregano)
-							</p>
-						</div>
-						<div>
-							<p>
-								Parmesan
+								1 eier
 							</p>
 						</div>
 					</div>
@@ -76,10 +56,18 @@ include ('../../header.php');
 				<div class="row">
 					<div class="col-xs-10 col-xs-offset-1">
 						<p class="text-center normalText">
-							Zwiebel und Knoblauch schälen und würfeln. etwas Öl in einer großen Pfanne erhitzen.
+							Die Nudeln bissfest kochen.
 							<br/>
 							<br/>
-							Tomaten zugeben Aufkochen und auf kleiner Flamm 30 Min. köcheln lassen. Zum Schluss noch etwa 2 El Öl unterziehen und würzen.
+							Butter in der Pfanne erhitzen.
+							<br/>
+							Die Nudeln dazugeben und unter häufigem Wenden nach Belieben braten.
+							<br/>
+							<br/>
+							Zum Schluss die verquirlten, mit Salz und Pfeffer gewürzten Eier über die Nudeln geben und alles wenden bis die Eier gestockt sind.
+							<br/>
+							<br/>
+							Wer mag, kann die Bratnudeln mit etwas Parmesan servieren.
 							<br/>
 						</p>
 					</div>
